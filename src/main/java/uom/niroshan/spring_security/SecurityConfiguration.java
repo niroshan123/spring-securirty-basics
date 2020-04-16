@@ -9,7 +9,7 @@ import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 
-@EnableWebSecurity//says that this is web security configuration
+@EnableWebSecurity//says that this is web security configurations
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     @Override
     //this is to set the http seccrity
