@@ -12,7 +12,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @EnableWebSecurity//says that this is web security configuration
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     @Override
-    //this is to set the http seccurity
+    //this is to set the http seccrity
     protected void configure(HttpSecurity http) throws Exception {
 
         http.authorizeRequests()
