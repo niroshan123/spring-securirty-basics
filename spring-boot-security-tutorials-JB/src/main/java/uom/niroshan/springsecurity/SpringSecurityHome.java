@@ -10,4 +10,14 @@ public class SpringSecurityHome {
     public String home(){
         return ("<h1>Hello World</h1>");
     }
+
+    @GetMapping("/user")
+    public String user(){
+        return ("<h1>Hello User</h1>");
+    }
+
+    @GetMapping("/admin")
+    public String Admin(){
+        return ("<h1>Hello Admin</h1>");
+    }
 }
