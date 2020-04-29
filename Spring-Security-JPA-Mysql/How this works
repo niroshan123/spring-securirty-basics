@@ -1,0 +1,6 @@
+You have the authentication Manger which calls to authentication provider which talks to the UserDetailsService.
+So the User Details service has one method which gets the user information based on the user information.Spring security has a way
+for you to provide this userdetails service. And it will take the user name and will return your user object type of userdetails.
+Any time if you wants to look up for a user userDetailsService can be called. And Spring security will manage the rest. It will show the
+login form and get the user name and password. And when it need to validate the user information its going to call 
+
