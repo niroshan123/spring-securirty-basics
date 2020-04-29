@@ -9,7 +9,7 @@ import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 public class MyUserDetails implements UserDetails {
-
+//what are in the data base
     private String userName;
     private String password;
     private boolean active;

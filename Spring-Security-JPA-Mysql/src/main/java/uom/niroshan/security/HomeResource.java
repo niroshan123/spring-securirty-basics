@@ -3,7 +3,7 @@ package uom.niroshan.security;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
+//First Set these APIs
 @RestController
 public class HomeResource {
 
